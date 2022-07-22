@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Common.Scripts.Commands;
 using Common.Scripts.Models;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -9,17 +10,28 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.PreviewCamera
     public class ControlPreviewCameraCommand : IFixedTickable
     {
         private readonly SignalBus _signal;
-        private readonly GameModel _model;
+        private bool _isMoving;
 
-        public ControlPreviewCameraCommand(SignalBus signal, GameModel model)
+        public ControlPreviewCameraCommand(SignalBus signal)
         {
             _signal = signal;
-            _model = model;
         }
 
         public void FixedTick()
         {
-            if (!Input.GetMouseButton(0) || GetHitOnUiObjects() != 0) return;
+            if (Input.GetMouseButton(0) && !_isMoving && GetHitOnUiObjects() == 0)
+            {
+                _signal.Fire(new ChangeCursorStateCommandSignal(false));
+                _isMoving = true;
+            }
+            
+            if (!Input.GetMouseButton(0) && _isMoving)
+            {
+                _signal.Fire(new ChangeCursorStateCommandSignal(true));
+                _isMoving = false;
+            }
+
+            if (!_isMoving) return;
             _signal.Fire<RotatePreviewCameraCommandSignal>();
             _signal.Fire<ZoomPreviewCameraCommandSignal>();
             _signal.Fire<CheckPreviewCameraCollisionsCommandSignal>();
