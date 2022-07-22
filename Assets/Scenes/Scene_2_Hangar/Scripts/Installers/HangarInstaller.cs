@@ -3,6 +3,7 @@ using Scenes.Scene_2_Hangar.Scripts.Commands.MainInfoPanel;
 using Scenes.Scene_2_Hangar.Scripts.Commands.PreviewCamera;
 using Scenes.Scene_2_Hangar.Scripts.Commands.StartBattlePanel;
 using Scenes.Scene_2_Hangar.Scripts.Commands.TanksListPanel;
+using Scenes.Scene_2_Hangar.Scripts.Factories;
 using Scenes.Scene_2_Hangar.Scripts.Mediators;
 using Scenes.Scene_2_Hangar.Scripts.Signals;
 using Zenject;
@@ -28,6 +29,8 @@ namespace Scenes.Scene_2_Hangar.Scripts.Installers
 
         private void InstallViews()
         {
+            Container.Bind<InstantiateGameObjectFactory>()
+                .AsSingle();
         }
         
         private void InstallModels()

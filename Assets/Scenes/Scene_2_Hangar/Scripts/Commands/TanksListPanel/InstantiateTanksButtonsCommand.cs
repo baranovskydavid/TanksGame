@@ -1,8 +1,7 @@
 ﻿using Common.Scripts.Installers;
 using Common.Scripts.Models;
-using Scenes.Scene_0_Main.Scripts.Factories;
 using Scenes.Scene_0_Main.Scripts.Interfaces;
-using Scenes.Scene_0_Main.Scripts.Models;
+using Scenes.Scene_2_Hangar.Scripts.Factories;
 using Scenes.Scene_2_Hangar.Scripts.Json;
 using Scenes.Scene_2_Hangar.Scripts.Mediators;
 using Scenes.Scene_2_Hangar.Scripts.Views;
