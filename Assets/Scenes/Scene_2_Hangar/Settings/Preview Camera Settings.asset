@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Preview Camera Settings
   m_EditorClassIdentifier: 
   settings:
-    MinAngleX: -60
-    MaxAngleX: 8
+    MinAngleX: -15
+    MaxAngleX: 40
     ZoomSpeed: 350
-    MinLocalPositionZ: 4
-    MaxLocalPositionZ: 12
-    MouseSensitivity: 240
-    VerticalInterpolation: 1
+    MinLocalPositionZ: -12
+    MaxLocalPositionZ: -4

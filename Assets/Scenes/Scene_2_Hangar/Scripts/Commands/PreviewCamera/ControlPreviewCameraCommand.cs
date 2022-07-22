@@ -27,10 +27,10 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.PreviewCamera
             
             if (!Input.GetMouseButton(0) && _isMoving)
             {
-                _signal.Fire(new ChangeCursorStateCommandSignal(true));
+                _signal.Fire(new ChangeCursorStateCommandSignal());
                 _isMoving = false;
             }
-
+            
             if (!_isMoving) return;
             _signal.Fire<RotatePreviewCameraCommandSignal>();
             _signal.Fire<ZoomPreviewCameraCommandSignal>();
