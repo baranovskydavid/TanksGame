@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: df4342486965c844dba2b770f50c5973
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - NocturnoBG
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6949a478ede86b54b87be83e70d8d97d, type: 3}
+  - {fileID: 12800000, guid: 4e371d12691f1694282dae3f9cdb9a80, type: 3}
+  - {fileID: 12800000, guid: 574da03616ab7b94fb7b074853293b8c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

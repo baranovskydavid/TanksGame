@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922fbf7210ff4d6db60293d677de9358, type: 3}
+  m_Name: T-34-76
+  m_EditorClassIdentifier: 
+  MainInfo:
+    Level: 5
+    Name: T-34-76
+    Preview: {fileID: 21300000, guid: 046b54f079086e346b5c08ca568aae30, type: 3}
+    PhysicTank: {fileID: 3524456158690097051, guid: d261fdae74143d140a28a8bb548fd237, type: 3}
+  Motor:
+    MotorTorque: 30
+    BrakeTorque: 400
+    MaxForwardSpeed: 48
+    MaxBackwardSpeed: -18
+    RotationSpeed: 44
+    RotationAtPlaceSpeed: 4
+  Turret:
+    RotationSpeed: 33
+  Trunk:
+    Shells: []
+    RotationSpeed: 25
+    MinAngle: -17
+    MaxAngle: 9

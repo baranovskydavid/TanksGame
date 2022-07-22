@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3ccf370cf34d10a7ec575a69241b95, type: 3}
+  m_Name: Shells Settings
+  m_EditorClassIdentifier: 
+  settings:
+    Bb:
+      Name: "\u0411\u0440\u043E\u043D\u0435\u0431\u043E\u0439\u043D\u044B\u0439"
+      Preview: {fileID: 21300000, guid: a9d8323e0974ef2408a9cb9661387ff5, type: 3}
+    Km:
+      Name: "\u041A\u0443\u043C\u0443\u043B\u044F\u0442\u0438\u0432\u043D\u044B\u0439"
+      Preview: {fileID: 21300000, guid: 18de57be68ba27248b1d919b73403d9c, type: 3}
+    Of:
+      Name: "\u041E\u0441\u043A\u043E\u043B\u043E\u0447\u043D\u043E-\u0444\u0443\u0433\u0430\u0441\u043D\u044B\u0439"
+      Preview: {fileID: 21300000, guid: cd040056c0e1d6c468e7d7e37b51af73, type: 3}

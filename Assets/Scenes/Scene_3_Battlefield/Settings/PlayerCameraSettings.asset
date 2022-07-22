@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c268f60d232f48df83bc18dfd266138e, type: 3}
+  m_Name: PlayerCameraSettings
+  m_EditorClassIdentifier: 
+  settings:
+    Prefab: {fileID: 4818022365157875407, guid: e53d1c778230b5f469c027207e2fccc3, type: 3}
+    MovingSpeed: 100
+    MinAngleX: -40
+    MaxAngleX: 40
+    ZoomingSpeed: 5
+    DefaultOffsetId: 1
+    Offsets:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: -10}
+    - {x: 0, y: 2, z: -16}
+    DefaultDistanceToHitPoint: 15
+    MouseSensitivity: 75
+    VerticalInterpolation: -1
