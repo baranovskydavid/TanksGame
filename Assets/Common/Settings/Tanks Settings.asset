@@ -15,3 +15,4 @@ MonoBehaviour:
   settings:
     TanksList:
     - {fileID: 11400000, guid: cb3d155ed7851c44c8796f5bb13ba8c1, type: 2}
+    - {fileID: 11400000, guid: 8c20d44ac4709ff41a26338a662009d3, type: 2}

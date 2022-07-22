@@ -30,14 +30,13 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.TanksListPanel
                 if (_model.SelectedTankId == view.Id) return;
                 _model.HangarIsEmpty = false;
                 _model.SelectedTankId = view.Id;
-                _mediator.View.TankHeader.SetActive(true);
             }
             else
             {
                 _model.HangarIsEmpty = _mediator.View.SpawnedButtons.Count == 0;
                 _model.SelectedTankId = 0;
-                _mediator.View.TankHeader.SetActive(false);
             }
+            _mediator.View.TankHeader.SetActive(true);
             _signal.Fire<InstantiatePreviewTankCommandSignal>();
         }
     }

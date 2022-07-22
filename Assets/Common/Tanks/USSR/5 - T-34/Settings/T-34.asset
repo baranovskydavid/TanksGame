@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 922fbf7210ff4d6db60293d677de9358, type: 3}
-  m_Name: T-34-76
+  m_Name: T-34
   m_EditorClassIdentifier: 
   MainInfo:
     Level: 5
-    Name: T-34-76
+    Name: T-34
     Preview: {fileID: 21300000, guid: 046b54f079086e346b5c08ca568aae30, type: 3}
-    PhysicTank: {fileID: 3524456158690097051, guid: d261fdae74143d140a28a8bb548fd237, type: 3}
+    PhysicTank: {fileID: 3524456158690097051, guid: 32c5bf714806d5e4f831153ba1f2b6f4, type: 3}
   Motor:
-    MotorTorque: 32
+    MotorTorque: 30
     BrakeTorque: 400
-    MaxForwardSpeed: 52
-    MaxBackwardSpeed: -20
-    RotationSpeed: 48
-    RotationAtPlaceSpeed: 5
+    MaxForwardSpeed: 48
+    MaxBackwardSpeed: -18
+    RotationSpeed: 44
+    RotationAtPlaceSpeed: 4
   Turret:
-    RotationSpeed: 36
+    RotationSpeed: 33
   Trunk:
     Shells: []
-    RotationSpeed: 28
-    MinAngle: -15
-    MaxAngle: 7
+    RotationSpeed: 25
+    MinAngle: -17
+    MaxAngle: 9
