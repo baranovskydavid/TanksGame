@@ -27,3 +27,5 @@ The project implemented:
 ![image_006_0101](https://user-images.githubusercontent.com/86428778/181220681-28c582d4-c592-4d24-9d2f-dd6aad3b183c.jpg)
 
 Also, the peculiarity of this project is that when working on it, I had absolutely no Internet, so I had to use the already accumulated knowledge and offline documentation Unity.
+
+To launch the project:  1. You need to download package 2. Import it into the empty unity 3 project. Add all the scenes (main, authorization, hangar, battlefield) to Scenes in Build 4. Start the Main scene
