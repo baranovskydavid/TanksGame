@@ -12,9 +12,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Mediators
     {
         public GameModesPanelView View;
         
-        public GameModesMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public GameModesMediator(SignalBus signal) : base(signal) { }
         
         protected override void InitView(OnViewEnableViewSignal signal)
         {

@@ -6,7 +6,6 @@ namespace Scenes.Scene_2_Hangar.Scripts.Views
 {
     public class PreviewCameraView : ViewBase
     {
-        public Transform Target;
         public Transform Camera;
         
         protected override void SubscribeOnListeners()
@@ -18,6 +17,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Views
         {
             Signal.Fire(new OnViewDisableViewSignal(this));
         }
-
     }
 }

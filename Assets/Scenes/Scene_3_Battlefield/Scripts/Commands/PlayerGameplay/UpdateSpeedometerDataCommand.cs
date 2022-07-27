@@ -22,7 +22,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerGameplay
         }
     }
 
-    public class UpdateSpeedometerDataCommandSignal : ISignal
-    {
-    }
+    public class UpdateSpeedometerDataCommandSignal : ISignal { }
 }

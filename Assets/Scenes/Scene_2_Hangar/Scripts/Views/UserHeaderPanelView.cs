@@ -34,16 +34,10 @@ namespace Scenes.Scene_2_Hangar.Scripts.Views
             Button_BuyFreeExperience.onClick.RemoveListener(OnButtonBuyFreeExperienceClick);
         }
 
-        private void OnButtonOpenProfileClick()
-        {
-        }
+        private void OnButtonOpenProfileClick() { }
         
-        private void OnButtonBuyBanknotesClick()
-        {
-        }
+        private void OnButtonBuyBanknotesClick() { }
         
-        private void OnButtonBuyFreeExperienceClick()
-        {
-        }
+        private void OnButtonBuyFreeExperienceClick() { }
     }
 }

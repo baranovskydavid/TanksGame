@@ -28,7 +28,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank
         }
     }
 
-    public class ShowDebugDataCommandSignal : ISignal
-    {
-    }
+    public class ShowDebugDataCommandSignal : ISignal { }
 }

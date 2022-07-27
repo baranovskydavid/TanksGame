@@ -39,7 +39,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.TanksListPanel
         }
     }
 
-    public class InstantiatePreviewTankCommandSignal : ISignal
-    {
-    }
+    public class InstantiatePreviewTankCommandSignal : ISignal { }
 }

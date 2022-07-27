@@ -14,8 +14,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Json
 
         public string AccountBirthday = DateTime.Now.ToString();
     }
-    
-    
+
     [Serializable]
     public class Tank
     {
@@ -27,7 +26,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Json
         }
         
         public TankStatus tankStatus = TankStatus.Default;
-        public int ExperienceCount;
-        public int[] ShellsCounts;
     }
 }

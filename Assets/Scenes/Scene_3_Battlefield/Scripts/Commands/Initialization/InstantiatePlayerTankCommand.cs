@@ -42,7 +42,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.Initialization
         }
     }
 
-    public class InstantiatePlayerTankCommandSignal : ISignal
-    {
-    }
+    public class InstantiatePlayerTankCommandSignal : ISignal { }
 }

@@ -35,7 +35,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.Initialization
         }
     }
 
-    public class InstantiatePlayerCameraCommandSignal : ISignal
-    {
-    }
+    public class InstantiatePlayerCameraCommandSignal : ISignal { }
 }

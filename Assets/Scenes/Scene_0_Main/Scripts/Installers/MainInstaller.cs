@@ -52,13 +52,9 @@ namespace Scenes.Scene_0_Main.Scripts.Installers
             Container.DeclareSignal<SceneLoadingCompletedViewSignal>();
         }
 
-        private void InstallViewSignals()
-        {
-        }
+        private void InstallViewSignals() { }
 
-        private void InstallMediators()
-        {
-        }
+        private void InstallMediators() { }
 
         private void InstallCommandSignals()
         {

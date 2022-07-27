@@ -31,13 +31,11 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Motor
             var averageLeftSpeed = _model.MotorInfo.AverageLeftSpeed;
             var averageRightSpeed = _model.MotorInfo.AverageRightSpeed;
 
-            
             if (averageSpeed.Equals(0) && !_model.Rotation.Equals(Quaternion.Euler(Vector3.zero))) {
                 averageLeftSpeed = _rotationAtPlaceSpeed * horizontal;
                 averageRightSpeed = -_rotationAtPlaceSpeed * horizontal;
             }
             
-
             _signal.Fire(new UpdateStaticWheelsRotationCommandSignal(_view.LeftStaticWheelsViews, averageLeftSpeed));
             _signal.Fire(new UpdateStaticWheelsRotationCommandSignal(_view.RightStaticWheelsViews, averageRightSpeed));
             

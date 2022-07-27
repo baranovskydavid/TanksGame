@@ -5,17 +5,11 @@ using Scenes.Scene_3_Battlefield.Scripts.Views.Tank;
 namespace Scenes.Scene_2_Hangar.Scripts.Signals
 {
     #region Main Info View
-    public class ShowPlayerNameViewSignal : ISignal
-    {
-    }
+    public class ShowPlayerNameViewSignal : ISignal { }
     
-    public class ShowBanknotesCountViewSignal : ISignal
-    {
-    }
+    public class ShowBanknotesCountViewSignal : ISignal { }
     
-    public class ShowFreeExperienceCountViewSignal : ISignal
-    {
-    }
+    public class ShowFreeExperienceCountViewSignal : ISignal { }
     #endregion
     
     #region Tanks List View
@@ -42,8 +36,6 @@ namespace Scenes.Scene_2_Hangar.Scripts.Signals
     #endregion
     
     #region Start Battle View
-    public class StartBattleViewSignal : ISignal
-    {
-    }
+    public class StartBattleViewSignal : ISignal { }
     #endregion
 }

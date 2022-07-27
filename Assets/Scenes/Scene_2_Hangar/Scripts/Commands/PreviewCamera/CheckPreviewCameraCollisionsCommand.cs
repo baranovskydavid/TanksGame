@@ -4,10 +4,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.PreviewCamera
 {
     public class CheckPreviewCameraCollisionsCommand : ICommand
     {
-
-        public void Execute()
-        {
-        }
+        public void Execute() { }
     }
 
     public class CheckPreviewCameraCollisionsCommandSignal : ISignal { }

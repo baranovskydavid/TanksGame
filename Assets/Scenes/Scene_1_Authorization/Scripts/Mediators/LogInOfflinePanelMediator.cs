@@ -11,9 +11,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Mediators
     {
         public LogInOfflinePanelView View;
 
-        public LogInOfflinePanelMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public LogInOfflinePanelMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

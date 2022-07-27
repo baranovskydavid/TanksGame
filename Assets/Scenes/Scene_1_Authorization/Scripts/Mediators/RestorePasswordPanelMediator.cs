@@ -11,9 +11,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Mediators
     {
         public RestorePasswordPanelView View;
 
-        public RestorePasswordPanelMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public RestorePasswordPanelMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

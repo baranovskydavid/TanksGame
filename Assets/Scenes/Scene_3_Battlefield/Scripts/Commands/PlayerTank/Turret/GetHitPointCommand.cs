@@ -29,7 +29,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Turret
         }
     }
 
-    public class GetHitPointCommandSignal : ISignal
-    {
-    }
+    public class GetHitPointCommandSignal : ISignal { }
 }

@@ -23,7 +23,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.MainInfoPanel
         }
     }
 
-    public class ShowFreeExperienceCountCommandSignal : ISignal
-    {
-    }
+    public class ShowFreeExperienceCountCommandSignal : ISignal { }
 }

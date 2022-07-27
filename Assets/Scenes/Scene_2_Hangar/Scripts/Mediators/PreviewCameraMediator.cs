@@ -12,9 +12,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Mediators
     {
         public PreviewCameraView View;
 
-        public PreviewCameraMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public PreviewCameraMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

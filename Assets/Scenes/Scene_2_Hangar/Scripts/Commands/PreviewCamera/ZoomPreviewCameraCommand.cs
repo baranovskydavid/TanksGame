@@ -1,5 +1,4 @@
-﻿using System;
-using Scenes.Scene_0_Main.Scripts.Interfaces;
+﻿using Scenes.Scene_0_Main.Scripts.Interfaces;
 using Scenes.Scene_2_Hangar.Scripts.Installers;
 using Scenes.Scene_2_Hangar.Scripts.Mediators;
 using UnityEngine;
@@ -24,7 +23,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.PreviewCamera
         }
     }
 
-    public class ZoomPreviewCameraCommandSignal : ISignal
-    {
-    }
+    public class ZoomPreviewCameraCommandSignal : ISignal { }
 }

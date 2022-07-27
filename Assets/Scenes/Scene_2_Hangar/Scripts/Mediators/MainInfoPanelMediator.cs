@@ -11,9 +11,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Mediators
     {
         public UserHeaderPanelView PanelView;
 
-        public MainInfoPanelMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public MainInfoPanelMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

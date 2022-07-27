@@ -13,9 +13,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Mediators
     {
         public TanksListPanelView View;
 
-        public TanksListPanelMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public TanksListPanelMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

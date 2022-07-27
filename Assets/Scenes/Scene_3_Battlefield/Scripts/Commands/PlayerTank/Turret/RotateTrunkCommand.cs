@@ -28,7 +28,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Turret
         }
     }
 
-    public class RotateTrunkCommandSignal : ISignal
-    {
-    }
+    public class RotateTrunkCommandSignal : ISignal { }
 }

@@ -3,7 +3,6 @@ using Scenes.Scene_0_Main.Scripts.Interfaces;
 using Scenes.Scene_0_Main.Scripts.Models;
 using Scenes.Scene_2_Hangar.Scripts.Mediators;
 
-
 namespace Scenes.Scene_2_Hangar.Scripts.Commands.MainInfoPanel
 {
     public class ShowBanknotesCountCommand : ICommand
@@ -23,7 +22,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.MainInfoPanel
         }
     }
 
-    public class ShowBanknotesCountCommandSignal : ISignal
-    {
-    }
+    public class ShowBanknotesCountCommandSignal : ISignal { }
 }

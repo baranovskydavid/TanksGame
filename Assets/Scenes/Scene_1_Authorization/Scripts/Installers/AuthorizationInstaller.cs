@@ -25,21 +25,13 @@ namespace Scenes.Scene_1_Authorization.Scripts.Installers
             InstallCommandSignals();
         }
 
-        private void InstallServices()
-        {
-        }
+        private void InstallServices() { }
 
-        private void InstallViews()
-        {
-        }
+        private void InstallViews() { }
         
-        private void InstallModels()
-        {
-        }
+        private void InstallModels() { }
 
-        private void InstallSignals()
-        {
-        }
+        private void InstallSignals() { }
 
         private void InstallViewSignals()
         {

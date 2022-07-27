@@ -16,57 +16,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/ControlPreviewCameraCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/RotatePreviewCameraCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerCamera/RotateCameraCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Factories/InstantiateGameObjectFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Installers/HangarInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/InstantiateTanksButtonsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/SelectTankCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTankVisibilityCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Services/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Mediators/ContentViewMediator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/BindEscapeKeyCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/DestroyInstantiatedPanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/SignOutCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowSoundsSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowInputSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowGraphicSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowGeneralSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/InstantiateSettingsPanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/HideReplaceKeyWarningCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeSoundsSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeInputSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeInputKeyCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupInputSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupGraphicSettingsCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SaveSettingsDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/LoadSettingsDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/CreateDefaultSettingsDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PlayerData/SaveOfflinePlayerDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PlayerData/LoadOfflinePlayerDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/SetupPausePanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/InstantiatePausePanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/ExitToHangarCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/ExitFromGameCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/ContentController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Signals/MainViewSignals.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Signals/CommonViewSignals.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Signals/MainCommandSignals.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Views/AdditionalInfoButtonView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Signals/AuthorizationViewSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Signals/HangarViewSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Mediators/TanksListPanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Mediators/StartBattlePanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Mediators/PreviewCameraMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Mediators/MainInfoPanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/RestorePasswordPanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/RegistrationPanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/LogInPanelMediator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/LogInOfflinePanelMediator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Restore Password Panel/SendRestorePasswordRequestCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Restore Password Panel/CancelRestorePasswordCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/OpenRestorePasswordPanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/OpenRegistrationPanelCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Registration Panel/SendRegisterUserRequestCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/LogInCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Offline/LogInOfflineCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Offline/CreateOfflinePlayerDataCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckPasswordTextCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckNicknameTextCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/GameModesMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/AuthorizationPanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Mediators/VersionTextMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Json/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Installers/HangarInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Installers/AuthorizationInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Installers/MainInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Installers/CommonInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/SelectTankCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/InstantiateTanksButtonsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/InstantiatePreviewTankCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/StartBattlePanel/StartBattleCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/ZoomPreviewCameraCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/CheckPreviewCameraCollisionsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/MainInfoPanel/ShowPlayerNameCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/MainInfoPanel/ShowFreeExperienceCountCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/MainInfoPanel/ShowBanknotesCountCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerCamera/ControlPlayerCameraCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Views/PlayerCameraView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Views/Tank/TankView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Models/PlayerTankModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Mediators/PlayerGameplayMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Mediators/GameManagerMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Installers/BattlefieldInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/ShowDebugDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Turret/RotateTurretCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Turret/RotateTrunkCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Turret/GetHitPointCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateWheelsRotationAndPositionCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTrackTextureOffsetCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTankVisibilityCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTankMotorInfoCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTankMotorDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/ResetWheelsCollidersDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerGameplay/UpdateSpeedometerDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerGameplay/UpdatePointPositionCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerGameplay/UpdateDistancemeterDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerCamera/GetHitPointCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/Initialization/SetupPlayerTankCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/Initialization/InstantiatePlayerTankCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/Initialization/InstantiatePlayerCameraCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/Initialization/InitializeGameCommand.cs" />
       </list>
     </option>
   </component>
@@ -206,10 +206,10 @@
     </state>
     <state x="748" y="185" key="SettingsEditor/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658908679389" />
     <state x="750" y="185" key="SettingsEditor/-1920.4.1486.864/0.0.2498.1080@0.0.2498.1080" timestamp="1658385963391" />
-    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1658907310131">
+    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1658909996628">
       <screen x="0" y="0" width="2490" height="1080" />
     </state>
-    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658907310131" />
+    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658909996628" />
     <state x="912" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1486.864/0.0.2498.1080@0.0.2498.1080" timestamp="1658390912281" />
     <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/0.0.2490.1080@0.0.2490.1080" timestamp="1658420081764" />
   </component>

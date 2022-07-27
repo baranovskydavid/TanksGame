@@ -11,9 +11,7 @@ namespace Common.Scripts.Mediators
     {
         private VersionTextView _view;
         
-        public VersionTextMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public VersionTextMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

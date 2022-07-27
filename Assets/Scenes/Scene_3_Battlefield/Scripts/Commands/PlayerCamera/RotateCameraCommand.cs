@@ -30,5 +30,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
         }
     }
 
-    public class RotateCameraCommandSignal : ISignal { }
+    public class RotatePlayerCameraCommandSignal : ISignal { }
 }

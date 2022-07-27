@@ -14,8 +14,8 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Models
 
         public MotorInfo MotorInfo;
         
-        public WheelsCollidersData LeftWheelsCollidersData = new WheelsCollidersData();
-        public WheelsCollidersData RightWheelsCollidersData = new WheelsCollidersData();
+        public readonly WheelsCollidersData LeftWheelsCollidersData = new WheelsCollidersData();
+        public readonly WheelsCollidersData RightWheelsCollidersData = new WheelsCollidersData();
         
         public Quaternion Rotation = Quaternion.Euler(Vector3.zero);
 
@@ -25,7 +25,6 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Models
         public Vector3 TrunkHitPointUiPosition;
     }
     
-    //DEBUG
     [Serializable]
     public class MotorInfo
     {

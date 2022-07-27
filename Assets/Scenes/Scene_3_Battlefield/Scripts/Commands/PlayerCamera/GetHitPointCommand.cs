@@ -3,7 +3,6 @@ using Scenes.Scene_3_Battlefield.Scripts.Installers;
 using Scenes.Scene_3_Battlefield.Scripts.Models;
 using UnityEngine;
 
-
 namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
 {
     public class GetHitPointCommand : ICommand
@@ -32,7 +31,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
         }
     }
 
-    public class GetHitPointCommandSignal : ISignal
-    {
-    }
+    public class GetHitPointCommandSignal : ISignal { }
 }

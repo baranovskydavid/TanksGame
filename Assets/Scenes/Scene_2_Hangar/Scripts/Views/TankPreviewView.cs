@@ -18,7 +18,6 @@ namespace Scenes.Scene_2_Hangar.Scripts.Views
         public TextMeshProUGUI Text_Level;
         public TextMeshProUGUI Text_TankInMatch;
 
-        
         protected override void SubscribeOnListeners()
         {
             Signal.Fire(new OnViewEnableViewSignal(this));

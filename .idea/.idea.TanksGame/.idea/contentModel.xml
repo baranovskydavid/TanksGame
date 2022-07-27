@@ -1260,7 +1260,7 @@
                   <e p="SetupPlayerTankCommand.cs" t="Include" />
                 </e>
                 <e p="PlayerCamera" t="Include">
-                  <e p="ControlCameraCommand.cs" t="Include" />
+                  <e p="ControlPlayerCameraCommand.cs" t="Include" />
                   <e p="GetHitPointCommand.cs" t="Include" />
                   <e p="MoveCameraToTargetCommand.cs" t="Include" />
                   <e p="RotateCameraCommand.cs" t="Include" />
@@ -1314,7 +1314,6 @@
                 <e p="PlayerGameplayView.cs" t="Include" />
                 <e p="Tank" t="Include">
                   <e p="StaticWheelView.cs" t="Include" />
-                  <e p="SuspensionView.cs" t="Include" />
                   <e p="TankView.cs" t="Include" />
                   <e p="TrackView.cs" t="Include" />
                   <e p="WheelView.cs" t="Include" />

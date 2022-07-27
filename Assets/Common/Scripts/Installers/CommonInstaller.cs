@@ -26,13 +26,9 @@ namespace Common.Scripts.Installers
             InstallCommandSignals();
         }
 
-        private void InstallServices()
-        {
-        }
-
-        private void InstallViews()
-        {
-        }
+        private void InstallServices() { }
+        
+        private void InstallViews() { }
 
         private void InstallModels()
         {
@@ -70,9 +66,7 @@ namespace Common.Scripts.Installers
             #endregion
         }
 
-        private void InstallViewSignals()
-        {
-        }
+        private void InstallViewSignals() { }
 
         private void InstallMediators()
         {

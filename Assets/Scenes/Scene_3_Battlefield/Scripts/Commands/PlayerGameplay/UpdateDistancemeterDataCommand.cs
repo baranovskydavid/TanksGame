@@ -22,7 +22,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerGameplay
         }
     }
 
-    public class UpdateDistancemeterDataCommandSignal : ISignal
-    {
-    }
+    public class UpdateDistancemeterDataCommandSignal : ISignal { }
 }

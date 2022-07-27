@@ -13,8 +13,7 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Views.Tank
         [Header("Physics")] 
         public Rigidbody Rigidbody;
         public Transform CenterOfMass;
-        public Transform Gravity;
-        
+
         [Header("Tracks")] 
         public TrackView LeftTrackView;
         public TrackView RightTrackView;
@@ -28,6 +27,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Views.Tank
         [Header("Turret")] 
         public Transform Turret;
         public Transform Trunk;
-        public Transform TrunkEnd;
     }
 }

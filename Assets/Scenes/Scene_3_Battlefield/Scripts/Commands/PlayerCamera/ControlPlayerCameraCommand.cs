@@ -3,12 +3,12 @@ using Zenject;
 
 namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
 {
-    public class ControlCameraCommand : IFixedTickable
+    public class ControlPlayerCameraCommand : IFixedTickable
     {
         private readonly SignalBus _signal;
         private readonly GameModel _gameModel;
 
-        public ControlCameraCommand(SignalBus signal, GameModel gameModel)
+        public ControlPlayerCameraCommand(SignalBus signal, GameModel gameModel)
         {
             _signal = signal;
             _gameModel = gameModel;
@@ -16,10 +16,10 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
 
         public void FixedTick()
         {
-            _signal.Fire<MoveCameraToTargetCommandSignal>();
+            _signal.Fire<MovelayerCameraToTargetCommandSignal>();
             if (_gameModel.IsPaused) return;
-            _signal.Fire<RotateCameraCommandSignal>();
-            _signal.Fire<ZoomCameraCommandSignal>();
+            _signal.Fire<RotatePlayerCameraCommandSignal>();
+            _signal.Fire<ZoomPlayerCameraCommandSignal>();
             _signal.Fire<GetHitPointCommandSignal>();
         }
     }

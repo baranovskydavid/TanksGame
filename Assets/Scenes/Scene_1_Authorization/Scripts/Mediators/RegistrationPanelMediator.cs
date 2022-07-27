@@ -12,9 +12,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Mediators
     {
         public RegistrationPanelView View;
 
-        public RegistrationPanelMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public RegistrationPanelMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {

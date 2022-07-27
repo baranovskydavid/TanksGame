@@ -25,14 +25,12 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.TanksListPanel
             var parameter = (SelectPreviewTankCommandSignal) signal;
             var view = parameter.View;
 
-            if (view != null)
-            {
+            if (view != null) {
                 if (_model.SelectedTankId == view.Id) return;
                 _model.HangarIsEmpty = false;
                 _model.SelectedTankId = view.Id;
             }
-            else
-            {
+            else {
                 _model.HangarIsEmpty = _mediator.View.SpawnedButtons.Count == 0;
                 _model.SelectedTankId = 0;
             }

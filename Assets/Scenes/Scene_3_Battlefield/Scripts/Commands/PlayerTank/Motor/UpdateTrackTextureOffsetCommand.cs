@@ -11,7 +11,8 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Motor
             var parameter = (UpdateTrackTextureOffsetCommandSignal) signal;
             var view = parameter.TrackView;
             
-            var distancePerFrame = parameter.AverageSpeed * 1000 / 60 / 60 * Time.fixedDeltaTime;
+            //Multiply 1,000 to convert kilometers to meters and divide by 3,600 to find the distance per second
+            var distancePerFrame = parameter.AverageSpeed * 1000 / 3600 * Time.fixedDeltaTime;
             var trackOffsetPerFrame = distancePerFrame / view.TrackLength;
             view.SkinnedMeshRenderer.material.mainTextureOffset += view.TextureOffsetAxis * trackOffsetPerFrame;
         }

@@ -1,5 +1,6 @@
 ﻿using Common.Scripts.Models;
 using Scenes.Scene_0_Main.Scripts.Commands.SceneService;
+using Scenes.Scene_0_Main.Scripts.Constants;
 using Scenes.Scene_0_Main.Scripts.Interfaces;
 using Zenject;
 
@@ -19,11 +20,9 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.StartBattlePanel
         public void Execute()
         {
             _model.InMatch = true;
-            _signal.Fire(new LoadSceneCommandSignal("Battlefield"));
+            _signal.Fire(new LoadSceneCommandSignal(MainConstants.ScenesNames.Battlefield));
         }
     }
 
-    public class StartBattleCommandSignal : ISignal
-    {
-    }
+    public class StartBattleCommandSignal : ISignal { }
 }

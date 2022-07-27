@@ -22,7 +22,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerGameplay
         }
     }
 
-    public class UpdatePointPositionCommandSignal : ISignal
-    {
-    }
+    public class UpdatePointPositionCommandSignal : ISignal { }
 }

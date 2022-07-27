@@ -51,7 +51,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Motor
         }
     }
 
-    public class UpdateTankMotorInfoCommandSignal : ISignal
-    {
-    }
+    public class UpdateTankMotorInfoCommandSignal : ISignal { }
 }

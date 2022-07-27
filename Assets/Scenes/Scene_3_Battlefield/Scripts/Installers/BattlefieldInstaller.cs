@@ -27,9 +27,7 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Installers
             InstallCommandSignals();
         }
 
-        private void InstallServices()
-        {
-        }
+        private void InstallServices() { }
 
         private void InstallViews()
         {
@@ -43,13 +41,9 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Installers
                 .AsSingle(); 
         }
 
-        private void InstallSignals()
-        {
-        }
+        private void InstallSignals() { }
 
-        private void InstallViewSignals()
-        {
-        }
+        private void InstallViewSignals() { }
 
         private void InstallMediators()
         {
@@ -86,21 +80,21 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Installers
             #endregion
             
             #region Player Camera
-            Container.Bind<IFixedTickable>().To<ControlCameraCommand>()
+            Container.Bind<IFixedTickable>().To<ControlPlayerCameraCommand>()
                 .AsCached();
             
-            Container.DeclareSignal<MoveCameraToTargetCommandSignal>();
-            Container.BindSignal<MoveCameraToTargetCommandSignal>()
+            Container.DeclareSignal<MovelayerCameraToTargetCommandSignal>();
+            Container.BindSignal<MovelayerCameraToTargetCommandSignal>()
                 .ToMethod<MoveCameraToTargetCommand>(signal => signal.Execute)
                 .FromNew();
             
-            Container.DeclareSignal<RotateCameraCommandSignal>();
-            Container.BindSignal<RotateCameraCommandSignal>()
+            Container.DeclareSignal<RotatePlayerCameraCommandSignal>();
+            Container.BindSignal<RotatePlayerCameraCommandSignal>()
                 .ToMethod<RotateCameraCommand>(signal => signal.Execute)
                 .FromNew();
             
-            Container.DeclareSignal<ZoomCameraCommandSignal>();
-            Container.BindSignal<ZoomCameraCommandSignal>()
+            Container.DeclareSignal<ZoomPlayerCameraCommandSignal>();
+            Container.BindSignal<ZoomPlayerCameraCommandSignal>()
                 .ToMethod<ZoomCameraCommand>(signal => signal.Execute)
                 .FromNew();
             

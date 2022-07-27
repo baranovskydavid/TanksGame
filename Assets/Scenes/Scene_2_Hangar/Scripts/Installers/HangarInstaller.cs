@@ -23,9 +23,7 @@ namespace Scenes.Scene_2_Hangar.Scripts.Installers
             InstallCommandSignals();
         }
 
-        private void InstallServices()
-        {
-        }
+        private void InstallServices() { }
 
         private void InstallViews()
         {
@@ -33,13 +31,9 @@ namespace Scenes.Scene_2_Hangar.Scripts.Installers
                 .AsSingle();
         }
         
-        private void InstallModels()
-        {
-        }
+        private void InstallModels() { }
 
-        private void InstallSignals()
-        {
-        }
+        private void InstallSignals() { }
 
         private void InstallViewSignals()
         {

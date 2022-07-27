@@ -22,7 +22,5 @@ namespace Scenes.Scene_2_Hangar.Scripts.Commands.MainInfoPanel
         }
     }
 
-    public class ShowPlayerNameCommandSignal : ISignal
-    {
-    }
+    public class ShowPlayerNameCommandSignal : ISignal { }
 }

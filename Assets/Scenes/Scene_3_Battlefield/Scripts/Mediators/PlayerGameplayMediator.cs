@@ -9,9 +9,7 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Mediators
     {
         public PlayerGameplayView View;
 
-        public PlayerGameplayMediator(SignalBus signal) : base(signal)
-        {
-        }
+        public PlayerGameplayMediator(SignalBus signal) : base(signal) { }
 
         protected override void InitView(OnViewEnableViewSignal signal)
         {
@@ -24,10 +22,7 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Mediators
 
         protected override void DisposeView(OnViewDisableViewSignal signal)
         {
-            if (signal.View is PlayerGameplayView)
-            {
-
-            }
+            if (signal.View is PlayerGameplayView) { }
         }
     }
 }

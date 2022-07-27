@@ -2,7 +2,6 @@
 using Scenes.Scene_3_Battlefield.Scripts.Models;
 using Scenes.Scene_3_Battlefield.Scripts.Views.Tank;
 
-
 namespace Scenes.Scene_3_Battlefield.Scripts.Commands.Initialization
 {
     public class SetupPlayerTankCommand : ICommand
@@ -20,7 +19,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.Initialization
         }
     }
 
-    public class SetupPlayerTankCommandSignal : ISignal
-    {
-    }
+    public class SetupPlayerTankCommandSignal : ISignal { }
 }

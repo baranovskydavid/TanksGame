@@ -24,5 +24,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerCamera
         }
     }
 
-    public class MoveCameraToTargetCommandSignal : ISignal { }
+    public class MovelayerCameraToTargetCommandSignal : ISignal { }
 }

@@ -19,7 +19,5 @@ namespace Scenes.Scene_3_Battlefield.Scripts.Commands.PlayerTank.Motor
         }
     }
 
-    public class ResetWheelsCollidersDataCommandSignal : ISignal
-    {
-    }
+    public class ResetWheelsCollidersDataCommandSignal : ISignal { }
 }
