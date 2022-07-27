@@ -16,23 +16,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Mediators/TanksListPanelMediator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckEmailTextCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckNicknameTextCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/ZoomPreviewCameraCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckPasswordTextCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Views/Tank/WheelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Installers/CommonInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Commands/SceneService/ShowLoadedSceneCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/BindEscapeKeyCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/ChangeCursorStateCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/DestroyInstantiatedPanelOrOpenPauseMenuCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateWheelsRotationAndPositionCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Models/GameModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Mediators/PausePanelMediator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Mediators/SettingsPanelMediator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/ControlPlayerTankCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerCamera/ControlCameraCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/ControlPreviewCameraCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/PreviewCamera/RotatePreviewCameraCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerCamera/RotateCameraCommand.cs" />
@@ -40,6 +23,50 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Installers/HangarInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/InstantiateTanksButtonsCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scene_2_Hangar/Scripts/Commands/TanksListPanel/SelectTankCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_3_Battlefield/Scripts/Commands/PlayerTank/Motor/UpdateTankVisibilityCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Services/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Mediators/ContentViewMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/BindEscapeKeyCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/DestroyInstantiatedPanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/SignOutCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowSoundsSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowInputSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowGraphicSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ShowGeneralSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/InstantiateSettingsPanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/HideReplaceKeyWarningCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeSoundsSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeInputSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsPanel/ChangeInputKeyCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupInputSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SetupGraphicSettingsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/SaveSettingsDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/LoadSettingsDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/SettingsData/CreateDefaultSettingsDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PlayerData/SaveOfflinePlayerDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PlayerData/LoadOfflinePlayerDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/SetupPausePanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/InstantiatePausePanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/ExitToHangarCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Commands/PausePanel/ExitFromGameCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/ContentController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Signals/MainViewSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Common/Scripts/Signals/CommonViewSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_0_Main/Scripts/Signals/MainCommandSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Views/AdditionalInfoButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Signals/AuthorizationViewSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Mediators/LogInOfflinePanelMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Restore Password Panel/SendRestorePasswordRequestCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Restore Password Panel/CancelRestorePasswordCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/OpenRestorePasswordPanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/OpenRegistrationPanelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Registration Panel/SendRegisterUserRequestCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Panel/LogInCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Offline/LogInOfflineCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Log In Offline/CreateOfflinePlayerDataCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckPasswordTextCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scene_1_Authorization/Scripts/Commands/Check Text Correctivity/CheckNicknameTextCommand.cs" />
       </list>
     </option>
   </component>
@@ -53,7 +80,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2999175" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="RiderCSharpFileTemplatesSettingsId" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
@@ -174,15 +201,15 @@
     </state>
     <state width="2447" height="247" key="GridCell.Tab.3.right/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658404321615" />
     <state width="2455" height="247" key="GridCell.Tab.3.right/-1920.4.1486.864/0.0.2498.1080@0.0.2498.1080" timestamp="1658389223753" />
-    <state x="748" y="185" key="SettingsEditor" timestamp="1658394092474">
+    <state x="748" y="185" key="SettingsEditor" timestamp="1658908679389">
       <screen x="0" y="0" width="2490" height="1080" />
     </state>
-    <state x="748" y="185" key="SettingsEditor/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658394092474" />
+    <state x="748" y="185" key="SettingsEditor/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658908679389" />
     <state x="750" y="185" key="SettingsEditor/-1920.4.1486.864/0.0.2498.1080@0.0.2498.1080" timestamp="1658385963391" />
-    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1658481162619">
+    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1658907310131">
       <screen x="0" y="0" width="2490" height="1080" />
     </state>
-    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658481162619" />
+    <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1480.864/0.0.2490.1080@0.0.2490.1080" timestamp="1658907310131" />
     <state x="912" y="235" width="672" height="678" key="search.everywhere.popup/-1920.4.1486.864/0.0.2498.1080@0.0.2498.1080" timestamp="1658390912281" />
     <state x="909" y="235" width="672" height="678" key="search.everywhere.popup/0.0.2490.1080@0.0.2490.1080" timestamp="1658420081764" />
   </component>

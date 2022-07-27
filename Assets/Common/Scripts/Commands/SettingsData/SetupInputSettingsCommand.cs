@@ -20,7 +20,6 @@ namespace Common.Scripts.Commands.SettingsData
         public void Execute()
         {
             _settings = _model.SettingsData.inputSettings;
-
             CalculateMouseSensitivity();
         }
 
@@ -35,7 +34,5 @@ namespace Common.Scripts.Commands.SettingsData
         }
     }
 
-    public class SetupInputSettingsCommandSignal : ISignal
-    {
-    }
+    public class SetupInputSettingsCommandSignal : ISignal {}
 }

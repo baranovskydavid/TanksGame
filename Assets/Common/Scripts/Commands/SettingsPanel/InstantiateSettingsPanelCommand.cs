@@ -24,7 +24,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class InstantiateSettingsPanelCommandSignal : ISignal
-    {
-    }
+    public class InstantiateSettingsPanelCommandSignal : ISignal {}
 }

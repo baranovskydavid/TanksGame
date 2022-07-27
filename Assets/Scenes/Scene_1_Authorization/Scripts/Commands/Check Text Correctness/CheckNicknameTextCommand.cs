@@ -3,7 +3,7 @@ using Scenes.Scene_0_Main.Scripts.Interfaces;
 using Scenes.Scene_1_Authorization.Scripts.Installers;
 using Scenes.Scene_1_Authorization.Scripts.Mediators;
 
-namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctivity
+namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctness
 {
     public class CheckNicknameTextCommand : ICommandWithParameters
     {
@@ -21,22 +21,14 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctivity
             var parameter = (CheckNicknameTextCommandSignal) signal;
             var text = parameter.Text;
 
-            foreach (var word in _settings.ProhibitedWords)
-            {
-                if (text.Contains(word))
-                {
-                    _mediator.NicknameCheckingResult(_settings.NicknameUseProhibitedWords);
-                    return;
-                }
+            if (_settings.ProhibitedWords.Any(word => text.Contains(word))) {
+                _mediator.NicknameCheckingResult(_settings.NicknameUseProhibitedWords);
+                return;
             }
 
-            foreach (var symbol in text)
-            {
-                if (!_settings.NicknameSymbols.Contains(symbol))
-                {
-                    _mediator.NicknameCheckingResult(_settings.NicknameUseProhibitedSymbols);
-                    return;
-                }
+            if (text.Any(symbol => !_settings.NicknameSymbols.Contains(symbol))) {
+                _mediator.NicknameCheckingResult(_settings.NicknameUseProhibitedSymbols);
+                return;
             }
 
             _mediator.NicknameCheckingResult(text.Length < _settings.MinNicknameLength ? _settings.NicknameSmall : "");

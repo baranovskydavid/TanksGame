@@ -21,7 +21,5 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Additional_Info_Panel
         }
     }
 
-    public class HideAdditionalInfoPanelCommandSignal : ISignal
-    {
-    }
+    public class HideAdditionalInfoPanelCommandSignal : ISignal { }
 }

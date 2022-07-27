@@ -3,7 +3,7 @@ using Scenes.Scene_0_Main.Scripts.Mediators;
 using Scenes.Scene_0_Main.Scripts.Signals;
 using Scenes.Scene_1_Authorization.Scripts.Commands;
 using Scenes.Scene_1_Authorization.Scripts.Commands.Additional_Info_Panel;
-using Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctivity;
+using Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctness;
 using Scenes.Scene_1_Authorization.Scripts.Signals;
 using Scenes.Scene_1_Authorization.Scripts.Views;
 using Zenject;

@@ -19,7 +19,5 @@ namespace Common.Scripts.Commands
         }
     }
 
-    public class DestroyInstantiatedPanelCommandSignal : ISignal
-    {
-    }
+    public class DestroyInstantiatedPanelCommandSignal : ISignal {}
 }

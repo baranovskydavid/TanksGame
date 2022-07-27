@@ -21,7 +21,5 @@ namespace Common.Scripts.Commands.PausePanel
         }
     }
 
-    public class SetupPausePanelCommandSignal : ISignal
-    {
-    }
+    public class SetupPausePanelCommandSignal : ISignal {}
 }

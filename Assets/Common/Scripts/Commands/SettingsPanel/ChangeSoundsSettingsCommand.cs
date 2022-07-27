@@ -30,7 +30,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class ChangeSoundsSettingsCommandSignal : ISignal
-    {
-    }
+    public class ChangeSoundsSettingsCommandSignal : ISignal {}
 }

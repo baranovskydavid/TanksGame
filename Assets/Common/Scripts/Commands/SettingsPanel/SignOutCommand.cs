@@ -12,7 +12,6 @@ namespace Common.Scripts.Commands.SettingsPanel
         private readonly GameModel _model;
         private readonly SignalBus _signal;
 
-
         public SignOutCommand(GameModel model, SignalBus signal)
         {
             _model = model;
@@ -28,7 +27,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class SignOutCommandSignal : ISignal
-    {
-    }
+    public class SignOutCommandSignal : ISignal {}
 }

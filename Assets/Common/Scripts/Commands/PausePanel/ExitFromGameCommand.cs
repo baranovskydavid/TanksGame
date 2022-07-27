@@ -11,7 +11,5 @@ namespace Common.Scripts.Commands.PausePanel
         }
     }
 
-    public class ExitFromGameCommandSignal : ISignal
-    {
-    }
+    public class ExitFromGameCommandSignal : ISignal {}
 }

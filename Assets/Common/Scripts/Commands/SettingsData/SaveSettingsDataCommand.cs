@@ -24,7 +24,5 @@ namespace Common.Scripts.Commands.SettingsData
         }
     }
 
-    public class SaveSettingsDataCommandSignal : ISignal
-    {
-    }
+    public class SaveSettingsDataCommandSignal : ISignal {}
 }

@@ -18,10 +18,11 @@ namespace Common.Scripts.Commands.SettingsData
         public void Execute()
         {
             var path = Application.persistentDataPath + MainConstants.JsonPaths.OfflineFolder;
-            
-            if (!Directory.Exists(path))
+
+            if (!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
-            
+            }
+
             if (File.Exists(path + MainConstants.JsonPaths.SettingsDataFile)) {
                 _signal.Fire<LoadSettingsDataCommandSignal>();
             }

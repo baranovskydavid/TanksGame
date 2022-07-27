@@ -30,7 +30,5 @@ namespace Common.Scripts.Commands.SettingsData
         }
     }
 
-    public class CreateDefaultSettingsDataCommandSignal : ISignal
-    {
-    }
+    public class CreateDefaultSettingsDataCommandSignal : ISignal {}
 }

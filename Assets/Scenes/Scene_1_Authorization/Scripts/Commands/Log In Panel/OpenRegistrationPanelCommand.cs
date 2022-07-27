@@ -16,15 +16,13 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Log_In_Panel
         {
             var view = _mediator.View;
 
-            view.InputField_Login.text = "";
-            view.InputField_Password.text = "";
+            view.InputField_Login.text = string.Empty;
+            view.InputField_Password.text = string.Empty;
             
             view.Panel_Registration.SetActive(true);
             view.gameObject.SetActive(false);
         }
     }
 
-    public class OpenRegistrationPanelCommandSignal : ISignal
-    {
-    }
+    public class OpenRegistrationPanelCommandSignal : ISignal { }
 }

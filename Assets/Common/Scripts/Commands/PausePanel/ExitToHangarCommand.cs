@@ -28,7 +28,5 @@ namespace Common.Scripts.Commands.PausePanel
         }
     }
 
-    public class ExitToHangarCommandSignal : ISignal
-    {
-    }
+    public class ExitToHangarCommandSignal : ISignal {}
 }

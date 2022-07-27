@@ -22,7 +22,6 @@ namespace Common.Scripts.Commands.SettingsData
         public void Execute()
         {
             _settings = _model.SettingsData.graphicSettings;
-            
             QualitySettings.SetQualityLevel(_settings.GraphicQualityLevel);
             SetFrameRate();
             SetResolution();
@@ -39,8 +38,7 @@ namespace Common.Scripts.Commands.SettingsData
         
         private void SetResolution()
         {
-            if (Screen.resolutions.Length - 1 < _settings.ResolutionValue)
-            {
+            if (Screen.resolutions.Length - 1 < _settings.ResolutionValue) {
                 _settings.ResolutionValue = Screen.resolutions.Length - 1;
                 _signal.Fire<SaveSettingsDataCommandSignal>();
             }
@@ -52,7 +50,5 @@ namespace Common.Scripts.Commands.SettingsData
         }
     }
 
-    public class SetupGraphicSettingsCommandSignal : ISignal
-    {
-    }
+    public class SetupGraphicSettingsCommandSignal : ISignal {}
 }

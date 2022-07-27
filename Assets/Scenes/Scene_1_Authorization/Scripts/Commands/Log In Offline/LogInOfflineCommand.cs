@@ -42,7 +42,5 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Log_In_Offline
         }
     }
 
-    public class LogInOfflineCommandSignal : ISignal
-    {
-    }
+    public class LogInOfflineCommandSignal : ISignal { }
 }

@@ -23,7 +23,5 @@ namespace Common.Scripts.Commands.PlayerData
         }
     }
 
-    public class SaveOfflinePlayerDataCommandSignal : ISignal
-    {
-    }
+    public class SaveOfflinePlayerDataCommandSignal : ISignal {}
 }

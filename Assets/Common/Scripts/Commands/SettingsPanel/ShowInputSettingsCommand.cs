@@ -31,7 +31,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class ShowInputSettingsCommandSignal : ISignal
-    {
-    }
+    public class ShowInputSettingsCommandSignal : ISignal {}
 }

@@ -4,10 +4,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Registration_Panel
 {
     public class SendRegisterUserRequestCommand : ICommand
     {
-
-        public void Execute()
-        {
-        }
+        public void Execute() { }
     }
 
     public class SendRegisterUserRequestCommandSignal : ISignal {}

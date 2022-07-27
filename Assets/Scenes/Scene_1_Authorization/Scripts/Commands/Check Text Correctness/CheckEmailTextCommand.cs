@@ -3,7 +3,7 @@ using Scenes.Scene_0_Main.Scripts.Interfaces;
 using Scenes.Scene_1_Authorization.Scripts.Installers;
 using Scenes.Scene_1_Authorization.Scripts.Mediators;
 
-namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctivity
+namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctness
 {
     public class CheckEmailTextCommand : ICommandWithParameters
     {
@@ -21,8 +21,7 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Check_Text_Correctivity
             var parameter = (CheckEmailTextCommandSignal) signal;
             var text = parameter.Text;
 
-            if (text.Contains('@') && text.Contains('.') && text.IndexOf('@') < text.LastIndexOf('.'))
-            {
+            if (text.Contains('@') && text.Contains('.') && text.IndexOf('@') < text.LastIndexOf('.')) {
                 _mediator.EmailCheckingResult();
                 return;
             }

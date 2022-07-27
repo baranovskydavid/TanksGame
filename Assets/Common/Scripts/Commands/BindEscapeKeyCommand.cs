@@ -21,17 +21,14 @@ namespace Common.Scripts.Commands
         public void Execute()
         {
             var activeSceneName = SceneManager.GetActiveScene().name;
-            if (activeSceneName.Equals(MainConstants.ScenesNames.Hangar) || activeSceneName.Equals(MainConstants.ScenesNames.Battlefield))
-            {                
-                if (_waitingForKey)
-                {
-                    return;
-                }
+            if (activeSceneName.Equals(MainConstants.ScenesNames.Hangar) || activeSceneName.Equals(MainConstants.ScenesNames.Battlefield)) {                
+                if (_waitingForKey) return;
 
                 _waitingForKey = true;
                 WaitingForEscapeKey();
                 return;
             }
+            
             _waitingForKey = false;
         }
 

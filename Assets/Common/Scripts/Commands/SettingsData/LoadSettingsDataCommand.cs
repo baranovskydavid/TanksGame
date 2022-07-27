@@ -25,7 +25,5 @@ namespace Common.Scripts.Commands.SettingsData
         }
     }
 
-    public class LoadSettingsDataCommandSignal : ISignal
-    {
-    }
+    public class LoadSettingsDataCommandSignal : ISignal {}
 }

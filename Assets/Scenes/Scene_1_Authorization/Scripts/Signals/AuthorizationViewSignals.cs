@@ -106,12 +106,8 @@ namespace Scenes.Scene_1_Authorization.Scripts.Signals
         }
     }
 
-    public class AdditionalInfoButtonDeselectedViewSignal : ISignal
-    {
-    } 
+    public class AdditionalInfoButtonDeselectedViewSignal : ISignal { } 
     #endregion
     
-    public class LogInOfflineViewSignal : ISignal
-    {
-    }
+    public class LogInOfflineViewSignal : ISignal { }
 }

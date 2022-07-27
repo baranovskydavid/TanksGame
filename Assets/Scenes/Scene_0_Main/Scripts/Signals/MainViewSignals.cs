@@ -24,13 +24,9 @@ namespace Scenes.Scene_0_Main.Scripts.Signals
     }
     
     #region Loading Panel
-    public class StartLoadingSceneViewSignal : ISignal
-    {
-    }
+    public class StartLoadingSceneViewSignal : ISignal { }
 
-    public class SceneLoadingCompletedViewSignal : ISignal
-    {
-    }
+    public class SceneLoadingCompletedViewSignal : ISignal { }
     
     public class SetVersionTextViewSignal : ISignal
     {

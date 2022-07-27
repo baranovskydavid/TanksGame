@@ -23,7 +23,5 @@ namespace Common.Scripts.Commands.PlayerData
         }
     }
 
-    public class LoadOfflinePlayerDataCommandSignal : ISignal
-    {
-    }
+    public class LoadOfflinePlayerDataCommandSignal : ISignal {}
 }

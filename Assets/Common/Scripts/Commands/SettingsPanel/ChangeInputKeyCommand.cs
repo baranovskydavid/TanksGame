@@ -9,14 +9,12 @@ namespace Common.Scripts.Commands.SettingsPanel
 {
     public class ChangeInputKeyCommand : ICommandWithParameters
     {
-        private readonly SettingsPanelMediator _mediator;
         private readonly SettingsModel _model;
         private readonly SignalBus _signal;
         private InputKeyView _view;
 
-        public ChangeInputKeyCommand(SettingsPanelMediator mediator, SettingsModel model, SignalBus signal)
+        public ChangeInputKeyCommand(SettingsModel model, SignalBus signal)
         {
-            _mediator = mediator;
             _model = model;
             _signal = signal;
         }
@@ -39,7 +37,7 @@ namespace Common.Scripts.Commands.SettingsPanel
             _signal.Fire(new ShowReplaceKeyWarningCommandSignal(_view.AxisName, _view.IsPositive, matchedAxisName, matchedKeyIsPositive));
         }
 
-        private void OnCancelled()
+        private void OnCancelled() 
         {
             _signal.Fire(new ChangeListenForKeyTextStateCommandSignal(false));
         }

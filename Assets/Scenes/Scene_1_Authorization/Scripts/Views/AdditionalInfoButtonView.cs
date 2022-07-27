@@ -7,7 +7,8 @@ namespace Scenes.Scene_1_Authorization.Scripts.Views
     {
         public string Description;
 
-        public void OnSelect() 
+        //Using
+        public void OnSelect()
         {
             Signal.Fire(new AdditionalInfoButtonSelectedViewSignal(this));
         }

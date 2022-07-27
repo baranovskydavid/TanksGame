@@ -44,5 +44,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class ShowGraphicSettingsCommandSignal : ISignal { }
+    public class ShowGraphicSettingsCommandSignal : ISignal {}
 }

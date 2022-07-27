@@ -1147,7 +1147,7 @@
                   <e p="ShowAdditionalInfoPanelCommand.cs" t="Include" />
                 </e>
                 <e p="ChangeGameModeCommand.cs" t="Include" />
-                <e p="Check Text Correctivity" t="Include">
+                <e p="Check Text Correctness" t="Include">
                   <e p="CheckEmailTextCommand.cs" t="Include" />
                   <e p="CheckNicknameTextCommand.cs" t="Include" />
                   <e p="CheckPasswordTextCommand.cs" t="Include" />
@@ -1170,9 +1170,6 @@
                   <e p="SendRestorePasswordRequestCommand.cs" t="Include" />
                 </e>
                 <e p="SetAuthorizationPanelDataCommand.cs" t="Include" />
-              </e>
-              <e p="Constants" t="Include">
-                <e p="AuthorizationConstants.cs" t="Include" />
               </e>
               <e p="Installers" t="Include">
                 <e p="AuthorizationInstaller.cs" t="Include" />

@@ -20,7 +20,5 @@ namespace Common.Scripts.Commands.SettingsPanel
         }
     }
 
-    public class HideReplaceKeyWarningCommandSignal : ISignal
-    {
-    }
+    public class HideReplaceKeyWarningCommandSignal : ISignal {}
 }

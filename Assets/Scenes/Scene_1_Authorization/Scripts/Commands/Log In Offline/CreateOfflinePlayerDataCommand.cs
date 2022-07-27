@@ -28,7 +28,5 @@ namespace Scenes.Scene_1_Authorization.Scripts.Commands.Log_In_Offline
         }
     }
 
-    public class CreateDefaultPlayerDataCommandSignal : ISignal
-    {
-    }
+    public class CreateDefaultPlayerDataCommandSignal : ISignal { }
 }
